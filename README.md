@@ -12,5 +12,12 @@
  * 綠色方塊
  * 林檎
 
+## 貢獻
+ * 本專案並無 Code of Conduct，因為我自己也是第一次寫模組（bruh）。提交前請確保沒有惡意程式碼，所有 PR 我都會看的。
+
+## 適用版本
+ * NeoForge 1.21.1
+ * Fabric 1.21.1
+
 ## 授權
 [GPL-3.0-or-later](/LICENSE)

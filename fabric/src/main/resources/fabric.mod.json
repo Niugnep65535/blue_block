@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "blue_block",
+  "version": "${version}",
+  "name": "Blue Block",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/blue_block/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "homo.niugnep.blueblock.fabric.ExampleModFabric"
+    ],
+    "client": [
+      "homo.niugnep.blueblock.fabric.client.ExampleModFabricClient"
+    ]
+  },
+  "mixins": [
+    "blue_block.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.11",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

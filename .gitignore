@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+**/build/
+
+# Minecraft 開發執行資料
+**/run/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Java
+*.class
+*.log
+hs_err_pid*
+
+# 作業系統
+.DS_Store
+Thumbs.db
+
+# 本機設定
+local.properties
